@@ -1,0 +1,28 @@
+.pet{
+		width: 350px;
+		height: 280px;
+		overflow: hidden;
+		margin: auto;
+		border: dashed black;
+		border-radius: 10px;
+		margin-top: 10px;
+}
+.pet_spritesheet{
+	animation: moveSprite 5s steps(13) infinite;
+}
+@keyframes moveSprite {
+	from {
+		transform: translate3d(0px,0,0)
+	}
+	to {
+		transform: translate3d(-100%,0,0)
+	}
+}
+table {
+	margin-top: 10px;
+}
+tr, th, td {
+	border: solid 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
